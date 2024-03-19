@@ -118,8 +118,8 @@ public static void bubbleSort(int[] array) {
         
         exibirArray(array);
         System.out.println(duration + " nanossegundos");
-        System.out.println(trocas);
-        System.out.println(comparacoes);
+        System.out.println("numero de trocas: " + trocas);
+        System.out.println("numero de comparacoes: " + comparacoes);
     }
     
     
@@ -148,8 +148,8 @@ public static void insertionSort(int[] array){
     
     exibirArray(array);
     System.out.println(duration + " nanossegundos");
-    System.out.println(trocas);
-    System.out.println(comparacoes);
+    System.out.println("numero de trocas: " + trocas);
+    System.out.println("numero de comparacoes: " + comparacoes);
 }
 
 public static void selectionSort(int[] array){
@@ -179,8 +179,8 @@ public static void selectionSort(int[] array){
     
     exibirArray(array);
     System.out.println(duration + " nanossegundos");
-    System.out.println(trocas);
-    System.out.println(comparacoes);
+    System.out.println("numero de trocas: " + trocas);
+    System.out.println("numero de comparacoes: " + comparacoes);
 }
     
     
